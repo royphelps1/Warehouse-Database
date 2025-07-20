@@ -79,8 +79,7 @@ INSERT INTO `customer` (`CompanyName`, `StreetAddress`, `City`, `State`, `Zip`, 
 
 select * from customer;
 
--- Insert shipments
-INSERT INTO `shipment` (`Quantity`, `Customer_idCustomer`, `Product_idProduct`, `Employee_idEmployee`) 
+-- Insert shipments 
 INSERT INTO `shipment` (`Quantity`, `Scantag`, `ReferenceNum`, `Customer_idCustomer`, `Product_idProduct`, `Employee_idEmployee`) 
 VALUES 
 ('9', 'REY-817','1975','500','94596','2'),
